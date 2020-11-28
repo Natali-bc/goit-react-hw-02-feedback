@@ -6,6 +6,8 @@ import Notification from './components/Notification/Notification.jsx';
 import styles from './components/Section/Section.module.css';
 
 class App extends Component {
+  static defaultProps = {};
+  static propTypes = {};
   state = {
     good: 0,
     neutral: 0,
